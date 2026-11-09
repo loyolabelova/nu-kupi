@@ -11,18 +11,41 @@
 <meta property="og:description" content="Латексные, фольгированные, цифры и баблсы, а рядом – сладости, игрушки и фигурки. Надуем шары и упакуем подарок, пока вы ждёте.">
 <meta property="og:image" content="assets/hero.webp">
 <link rel="preload" as="image" href="assets/hero.webp" fetchpriority="high">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect x=%276%27 y=%276%27 width=%2720%27 height=%2720%27 rx=%275%27 fill=%27%23e8b4ae%27/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect x=%276%27 y=%276%27 width=%2720%27 height=%2720%27 rx=%2710%27 fill=%27%23f0306e%27 stroke=%27%23fcb817%27 stroke-width=%272%27/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root { --c-canvas: #0f1a14; --c-surface: #182520; --c-ink: #f4ece7; --c-ink-soft: #b1b7ac; --c-accent: #e8b4ae; --c-accent-ink: #2b1517; --c-accent-deep: #e8b4ae; --f-display: "Tenor Sans", "Trebuchet MS", "Segoe UI", system-ui, sans-serif; --f-text: "Onest", "Segoe UI", system-ui, sans-serif; --h1k: 1; }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700;800&family=Rubik+Bubbles&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style-prod.css">
+<style>
+:root { --c-canvas: #fffaf2; --c-surface: #ffffff; --c-ink: #1f1830; --c-ink-soft: #5d5670; --c-accent: #d81f58; --c-accent-ink: #ffffff; --c-accent-deep: #0b8c90; --f-display: "Rubik", "Arial Black", system-ui, sans-serif; --f-text: "Nunito", "Segoe UI", system-ui, sans-serif; --h1k: .92; }
+/* палитра логотипа: бирюза, малиновый, жёлтый, фиолетовый; округлые жирные буквы */
+html:root { --teal: #19b5b8; --pink: #f0306e; --yellow: #fcb817; --violet: #9b4de0; --shadow: 0 18px 44px -20px rgba(80, 30, 90, .35); --tint: #fff0f4; --hair: #efe4ea; }
+body { background: radial-gradient(circle at 8% 6%, rgba(25,181,184,.13) 0 120px, transparent 121px), radial-gradient(circle at 94% 14%, rgba(252,184,23,.16) 0 90px, transparent 91px), radial-gradient(circle at 85% 60%, rgba(155,77,224,.08) 0 140px, transparent 141px), var(--c-canvas); }
+h1, h2, h3 { font-weight: 800; letter-spacing: -.01em; }
+.s-bar__brand { font-family: "Rubik Bubbles", "Rubik", sans-serif; font-weight: 400; font-size: 1.25rem; color: var(--pink); letter-spacing: .02em; }
+.s-bar__brand b { font-weight: 400; } .s-bar__brand .lt { color: var(--teal); } .s-bar__brand .lp { color: var(--pink); } .s-bar__brand .lv { color: var(--violet); } .s-bar__brand .ly { color: #f0a800; }
+.s-bar__brand i { display: none; background: conic-gradient(var(--teal) 0 25%, var(--pink) 0 50%, var(--yellow) 0 75%, var(--violet) 0); }
+.s-btn { box-shadow: 0 4px 0 #a5123f; font-weight: 800; }
+.s-btn--ghost { box-shadow: none; }
+.s-ticks li:nth-child(4n+1)::before { background: var(--teal); }
+.s-ticks li:nth-child(4n+2)::before { background: var(--pink); }
+.s-ticks li:nth-child(4n+3)::before { background: var(--yellow); }
+.s-ticks li:nth-child(4n+4)::before { background: var(--violet); }
+.s-steps__item:nth-child(4n+1) .s-steps__n { background: var(--teal); }
+.s-steps__item:nth-child(4n+3) .s-steps__n { background: #e8a600; color: #1f1830; }
+.s-steps__item:nth-child(4n+4) .s-steps__n { background: var(--violet); }
+.s-promises li:nth-child(4n+1) { border-top-color: var(--teal); }
+.s-promises li:nth-child(4n+2) { border-top-color: var(--pink); }
+.s-promises li:nth-child(4n+3) { border-top-color: var(--yellow); }
+.s-promises li:nth-child(4n+4) { border-top-color: var(--violet); }
+.s-reviews__stars::after { color: var(--yellow); }
+.s-incl > div:first-child { background: #e6f7f7; }
+.s-contacts { background: #fff3d6; }
+</style>
 </head>
 <body class="s-prod" id="top" data-wa="" data-tg="nukupi6" data-max="">
 <header class="s-bar" data-s-bar>
-  <a class="s-bar__brand" href="#top"><i aria-hidden="true"></i>НУ, Купи</a>
+  <a class="s-bar__brand" href="#top"><i aria-hidden="true"></i><span><b class="lt">НУ,</b> <b class="lp">Ку</b><b class="lv">п</b><b class="ly">и</b></span></a>
   <div class="s-bar__right">
     <a class="s-bar__tel" href="tel:+79164745154">+7 (916) 474-51-54</a>
     <a class="s-btn s-btn--sm" href="#widget">Посчитать шары</a>
